@@ -3231,7 +3231,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝒁𝑰𝑨𝑫', url = "https://t.me/X_x_Z_i_a_d_x_X"}}
+{{text = '𝒁𝑰𝑨𝑫', url = "https://t.me/X_x_Z_i_a_d_x_X"}},
 {{text = '《𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑬𝒁𝑶》',url="t.me/mezo571"}},
 }
 local msg_id = msg.id_/2097152/0.5
