@@ -1299,7 +1299,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/mezo571/83/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&Photo=https://t.me/t_imoo/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'قسم مطورين السورس والمبرمجين' and DevSoFi(msg) then 
@@ -3193,7 +3193,7 @@ keyboard.inline_keyboard = {
 {{text = '𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑬𝒁𝑶', url = "https://t.me/mezo571"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/aslak8/47&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/t_imoo/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'يوتيوب' or text == 'بحث' or text == 'اليوتيوب' then
@@ -15313,7 +15313,7 @@ local List = {
 • 🦄 | ??𝑬𝑺 : #username ‌‌‏⚚
 • 🦄 | 𝑺𝑻𝑨 : #stast ☥
 • 🦄 | 𝑰𝑫 : #id ‌‌‏♕
-• 🦄 | 𝑴𝑺𝑮 : #msgs 𓆊
+• ?? | 𝑴𝑺𝑮 : #msgs 𓆊
 • 🦄 | 𝑾??𝒍𝒄𝒐𝒎𝒆 : ⁞
 • 🦄 | 𝗖𝗛 - ↝@mezo571↜ 💞.
 ]],
